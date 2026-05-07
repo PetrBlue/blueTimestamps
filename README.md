@@ -14,7 +14,7 @@ A [Vencord](https://github.com/Vendicated/Vencord) user plugin that adds seconds
 ### Linux
 1. Clone the Vencord repository (replace `/home/[user]/Vencord` with your desired path if different):
    ```bash
-   git clone [https://github.com/Vendicated/Vencord](https://github.com/Vendicated/Vencord) /home/[user]/Vencord
+   git clone https://github.com/Vendicated/Vencord.git /home/[user]/Vencord
    ```
 2. Navigate to the Vencord `src/userplugins` directory and create a folder for the plugin:
    ```bash
@@ -36,7 +36,7 @@ A [Vencord](https://github.com/Vendicated/Vencord) user plugin that adds seconds
 The steps for Windows are essentially the same, just using Windows paths!
 1. Open Command Prompt or PowerShell and clone the Vencord repository:
    ```cmd
-   git clone [https://github.com/Vendicated/Vencord](https://github.com/Vendicated/Vencord)
+   git clone https://github.com/Vendicated/Vencord.git
    cd Vencord
    ```
 2. Go into the `src\userplugins` folder, create a folder named `blueTimestamps`, and drop your `index.tsx` file inside.
